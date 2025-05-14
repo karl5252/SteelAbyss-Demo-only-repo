@@ -7,6 +7,16 @@
 > ⚠️ This video showcases testing of new weapons and firepower.  
 > It's not full gameplay, but gives a good sense of combat and game feel.
 
+## 🧪 Preview Build (Dev Version)
+
+You can test the current development version here:  
+🔗 [Steel Abyss – Preview Build](    https://deploy-preview-76--steelabyss.netlify.app)
+
+> ⚠️ This is a **work-in-progress build** used for feature testing.  
+> Expect bugs, missing balancing and unpolished content.  
+> If you're looking for the stable public version, see the main link above.
+
+
 ## 📋 Development Board
 
 Track the full development progress, tasks, bugs, and ideas here:
