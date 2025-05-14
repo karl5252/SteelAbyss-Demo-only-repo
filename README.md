@@ -16,8 +16,9 @@ Track the full development progress, tasks, bugs, and ideas here:
 
 ## Controls
 - Arrow keys – movement
-- Space – shoot
-- P – pause
+- Space – shoot torpedoes
+- V - shoot rockets
+- B - shoot bombs
 
 ## What’s in this repo?
 This repository contains:
