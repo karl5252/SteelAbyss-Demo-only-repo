@@ -1,49 +1,117 @@
-# Steel Abyss [DEMO]
+# ⚙️ STEEL ABYSS [DEMO]  
+> A retro-style **side-scrolling arcade shooter** forged in Phaser.js  
+> ⚔️ **Submarines. Torpedoes. Bullet Hell. No Mercy.**
 
-**Side-scrolling arcade shooter** made in Phaser.js. Built as a solo project from scratch.
+---
 
-🕹️ **Play online:** ([https://steel-abyss.netlify.app](https://steelabyss.netlify.app/ ))  
-🎥 **Watch gameplay on YouTube** ([WATCH](https://www.youtube.com/watch?v=U8Q3a738_04))
-> ⚠️ This video showcases testing of new weapons and firepower.  
-> It's not full gameplay, but gives a good sense of combat and game feel.
+## 🎮 Play Now
 
-## 🧪 Preview Build (Dev Version)
+**🕹️ Live Demo:** [https://steelabyss.netlify.app](https://steelabyss.netlify.app)  
+**📺 Gameplay Preview (YouTube):** [Watch Here](https://www.youtube.com/watch?v=U8Q3a738_04)
 
-You can test the current development version here:  
-🔗 [Steel Abyss – Preview Build](    https://deploy-preview-76--steelabyss.netlify.app)
+> 🚧 *Note:* This video showcases **new weapon testing** and combat flow – not a full playthrough.
 
-> ⚠️ This is a **work-in-progress build** used for feature testing.  
-> Expect bugs, missing balancing and unpolished content.  
-> If you're looking for the stable public version, see the main link above.
+---
+
+## 🧪 Preview Build (Dev Channel)
+
+Want to see what’s cooking in development?
+
+**🔗 Preview Build:** [deploy-preview-76--steelabyss.netlify.app](https://deploy-preview-76--steelabyss.netlify.app)
+
+⚠️ *This is a work-in-progress version for testing purposes only.*  
+Expect:  
+- Experimental features  
+- Unbalanced gameplay  
+- Occasional bugs and placeholder assets
+
+---
+
+## 🗺️ Development Progress
+
+Track everything: features, bugs, ideas, priorities
+
+🛠️ [Steel Abyss – GitHub Project Board](https://github.com/users/karl5252/projects/1)
+
+---
+
+## 🎮 Controls
+
+| Action          | Key           |
+|----------------|----------------|
+| Move           | Arrow keys     |
+| Fire torpedoes | Space          |
+| Launch rockets | `V`            |
+| Drop bombs     | `B`            |
+
+---
+
+## 🔧 Tech Stack
+
+- **Engine:** Phaser 3
+- **Language:** JavaScript
+- **Render mode:** WebGL/Canvas
+- **Deploy:** Netlify
+- **Scenes:**  
+  - `PreloadScene` → `MenuScene` → `Stage1` → `Stage2` → `BossScene` → `GameOver/Victory`
+- **High Scores & Persistence:** Firebase Realtime Database
 
 
-## 📋 Development Board
+> Clean separation of game flow, rendering, and enemy logic using modular scene management.
 
-Track the full development progress, tasks, bugs, and ideas here:
+---
 
-👉 [Steel Abyss – GitHub Project Board](https://github.com/users/karl5252/projects/1)
+## 🏆 High Score Sync via Firebase
+Steel Abyss supports real-time high score tracking using Firebase Realtime Database.
 
+Scores are automatically synced between sessions
 
-## Controls
-- Arrow keys – movement
-- Space – shoot torpedoes
-- V - shoot rockets
-- B - shoot bombs
+Leaderboard logic is handled client-side
 
-## What’s in this repo?
-This repository contains:
-- Screenshots and demo materials
-- Architecture breakdown
-- Control description
-- Licensing terms
+All data is stored in the cloud and persists between playthroughs
 
-## Roadmap Snapshot (as of May 2025)
+Built as a lightweight backend-free solution to demonstrate online scorekeeping
 
-- [x] Implement wave-based enemy system
-- [x] Add HUD with health and score
-- [x] Implement pause and restart
-- [ ] Boss logic and level transition
-- [ ] Mobile optimizations
-- [ ] Sound effect polish
+> 🧠 Tech Insight: Firebase integration shows how a static Phaser.js game can include dynamic data and live backend interaction — no custom server required.
 
-**Source code available upon request.**
+---
+
+## 📁 What’s in this repo?
+
+- 📸 Screenshots and video links  
+- 🧱 Architecture & scene breakdown  
+- 🎮 Controls and testing notes  
+- 📜 Licensing and access notes
+
+**🧠 Source code is available upon request.**
+
+---
+
+## 📌 Roadmap Snapshot (May 2025)
+
+- ✅ Wave-based enemy AI  
+- ✅ Health + score HUD  
+- ✅ Pause / resume / restart  
+- 🔄 Boss logic and transitions  
+- 🔊 Sound & music polish  
+- 📱 Mobile scaling & UX tweaks  
+
+---
+
+## 🧠 Future Vision
+
+Steel Abyss aims to be a compact, high-action browser game with potential for:
+- Boss progression and cutscenes  
+- Multiple weapon loadouts  
+- Leaderboard or score persistence  
+- Mobile porting
+
+---
+
+## 🧑‍💻 Author
+
+Created by [@karl5252](https://github.com/karl5252)  
+> Game dev enthusiast • QA automation engineer • Phaser enjoyer
+
+---
+
